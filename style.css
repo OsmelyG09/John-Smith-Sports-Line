@@ -1,0 +1,337 @@
+@import "compass/css3";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+      /*font-family: 'Open Sans Condensed', sans-serif;*/  
+      background-color: white;  
+}
+
+header{
+    background-color: rgb(15, 14, 14);
+    padding: 3px;
+    border: 6px solid rgb(86, 102, 74);
+    height: 140px;
+}
+
+img{
+    width:100px; 
+    height:100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+h1{
+    color: rgb(232, 241, 241);
+    display: inline-block;
+    margin-left: 390px; 
+    position: absolute; 
+    top: 45px; 
+}
+
+nave{
+    margin-left: 410px;
+}
+
+a{
+    color: rgb(153, 158, 161);
+    display: inline-block;
+    padding: 1px 5px;
+    margin: 2px 2px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+div{
+    background-color: rgb(90, 87, 83);
+    height: 200px; 
+}
+
+h2{
+    margin-left: 470px;
+    display: inline-block;
+    margin-top: 80px;    
+}
+
+h3{
+    margin-left: 540px;
+    margin-top: 20px; 
+}
+
+.our-products{
+    display: block;
+    padding: 40px;
+}
+
+.categories{
+   height: 200px;
+}
+
+main{
+    margin-bottom: 300px;  
+}
+
+h4{
+    padding: 30px;
+    margin-left: 560px;
+}
+
+.available-one{
+    background-color: rgb(243, 244, 245);
+    border-radius: 4px;
+    width: 410px;
+    height: 410px;       
+}
+
+.sneakers{
+    border: 2px solid black;
+    margin-left: 100px;
+    width: 150px;
+    height: 150px;
+}
+
+.available-two{
+    background-color: rgb(243, 244, 245);
+    border-radius: 4px;
+    position: absolute;
+    width: 410px;
+    height: 410px;
+    left: 460px;
+    top: 455px;   
+}
+
+.mat{
+    border: 2px solid black;
+    margin-left: 100px;
+    width: 150px;
+    height: 150px;
+}
+
+.available-three{
+    background-color:rgb(243, 244, 245);
+    border-radius: 4px;
+    position: absolute;    
+    right: 60px;
+    top: 455px;
+    height: 410px;
+    width: 410px;    
+}
+
+.weights{
+    border: 2px solid black;
+    margin-left: 100px;
+    width: 150px;
+    height: 150px;    
+}
+
+.product{
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.products{
+    margin-top: 20px;
+    margin-left: 170px;
+}
+
+.description{
+    margin-top: 20px;
+}
+
+.cost{
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.info{
+    border: 2px solid black;
+    background-color: black;
+    margin-top: 20px;
+    margin-left: 130px;
+}
+
+h5{
+    margin-left: 200px;
+  
+}
+
+p{
+    margin-left: 20px;
+    margin-right: 20px;  
+}
+
+.available-footwear{
+    width: 350px;
+    height: 350px;
+    right: 200px;
+    margin-bottom: 300px;      
+}
+
+.footwear{
+    border: 2px solid black;
+    margin-left: 100px;
+    width: 300px;
+    height: 300px;
+    bottom: 120px;   
+}
+
+.available-fit-team{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 480px;
+    top: 990px;  
+}
+
+.fit-team{
+    border: 2px solid black;
+    margin-left: 60px;
+    width: 300px;
+    height: 300px;
+}
+
+.available-outdoor-sports{
+    position: absolute;    
+    height: 350px;
+    width: 350px;
+    left: 950px;
+    top: 990px;
+    bottom: 200px;
+}
+
+.outdoor-sports{
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+}
+
+footer{
+    background-color: rgb(90, 87, 83); 
+    padding: 20px 20px;
+    text-align: center;    
+}
+
+/*Additional styles on the about us page*/
+
+#literature{
+    background-color: white;
+}
+
+.about{
+    margin-left: 600px;
+    height: 50px;
+}
+
+.meet-our-team{
+    margin-top: 60px;
+}
+
+.staff-one{
+    margin-left: 200px;
+    height: 150px;
+    width: 150px;
+    margin-top: 40px;
+}
+
+.staff-two{
+    position: absolute;    
+    height: 150px;
+    width: 150px;
+    left: 580px;
+    top: 500px;
+}
+
+.staff-three{
+    position: absolute;    
+    height: 150px;
+    width: 150px;
+    right: 200px;
+    top: 500px; 
+}
+
+.person-A{
+    margin-left: 150px;
+    height: 10px;
+    width: 300px;
+}
+
+.person-B{
+    margin-left: 210px;   
+    height: 40px;
+    width: 200px; 
+}
+
+.person-C{
+    margin-left: 150px;
+    height: 100px;
+    width: 250px; 
+}
+
+.person-D{
+    position: absolute;
+    margin-left: 580px;
+    height: 10px;
+    width: 300px;    
+    top: 670px;    
+}
+
+.person-E{
+    position: absolute;
+    margin-left: 580px;
+    height: 10px;
+    width: 300px;
+    top: 720px; 
+}
+
+.person-F{
+    position: absolute;
+    margin-left: 520px;
+    height: 10px;
+    width: 300px;    
+    top: 800px; 
+}
+
+.person-G{
+    position: absolute;
+    margin-left: 950px;
+    height: 10px;
+    width: 300px;
+    top: 670px;    
+}
+
+.person-H{
+    position: absolute;
+    margin-left: 1030px;
+    height: 10px;
+    width: 300px;    
+    top: 720px; 
+}
+
+.person-I{
+    position: absolute;
+    margin-left: 950px;
+    height: 10px;
+    width: 300px;    
+    top: 800px; 
+}
+
+.evaluations{
+    margin-top: 150px;
+}
+
+.assessment-one{
+    margin-top: 50px; 
+}
+
+.assessment-two{
+    margin-top: 50px; 
+}
+
+.assessment-three{
+    margin-top: 50px; 
+}

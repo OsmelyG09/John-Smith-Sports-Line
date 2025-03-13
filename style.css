@@ -236,6 +236,8 @@ footer{
     height: 150px;
     width: 150px;
     margin-top: 40px;
+    border-radius: 150%; 
+    border: 2px solid black
 }
 
 .staff-two{
@@ -244,6 +246,8 @@ footer{
     width: 150px;
     left: 580px;
     top: 500px;
+    border-radius: 150%; 
+    border: 2px solid black
 }
 
 .staff-three{
@@ -251,7 +255,9 @@ footer{
     height: 150px;
     width: 150px;
     right: 200px;
-    top: 500px; 
+    top: 500px;
+    border-radius: 150%; 
+    border: 2px solid black 
 }
 
 .person-A{

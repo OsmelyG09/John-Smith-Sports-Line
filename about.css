@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+  background-color: azure;
+}
+
+header{
+    background-color: rgb(15, 14, 14);
+    padding: 3px;
+    border: 6px solid rgb(86, 102, 74);
+    height: 140px;
+}
+
+
+
+
+
+      h1{
+        color: rgb(232, 241, 241);
+        display: inline-block;
+        margin-left: 400px; 
+        position: absolute; 
+        top: 45px; 
+        font-family: "Black Ops One", system-ui;
+            font-weight: 400;
+            font-style: normal;
+    
+    }
+
+      img{
+        width:100px; 
+        height:100px;
+        margin-left: 10px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+
+
+
+nave{
+    margin-left: 410px;
+}
+
+a{
+    color: rgb(153, 158, 161);
+    padding: 5px 5px;
+    margin: 5px 5px;
+    text-decoration: none;
+    border-radius: 5px; 
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+a:hover{
+    background-color: rgb(230, 230, 210);
+    color: rgb(12, 1, 1);
+}
+
+
+footer{
+    background-color: rgb(44, 41, 41); 
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    color: beige;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+#literature{
+    background-color: white;
+}
+
+.about{
+    margin-left: 600px;
+    height: 50px;
+}
+
+.meet-our-team{
+    margin-top: 60px;
+}
+
+.staff-one{
+    margin-left: 200px;
+    height: 150px;
+    width: 150px;
+    margin-top: 40px;
+    border-radius: 150%; 
+    border: 2px solid black
+}
+
+.staff-two{
+    position: absolute;    
+    height: 150px;
+    width: 150px;
+    left: 580px;
+    top: 500px;
+    border-radius: 150%; 
+    border: 2px solid black
+}
+
+.staff-three{
+    position: absolute;    
+    height: 150px;
+    width: 150px;
+    right: 200px;
+    top: 500px;
+    border-radius: 150%; 
+    border: 2px solid black 
+}
+
+.person-A{
+    margin-left: 150px;
+    height: 10px;
+    width: 300px;
+}
+
+.person-B{
+    margin-left: 210px;   
+    height: 40px;
+    width: 200px; 
+}
+
+.person-C{
+    margin-left: 150px;
+    height: 100px;
+    width: 250px; 
+}
+
+.person-D{
+    position: absolute;
+    margin-left: 580px;
+    height: 10px;
+    width: 300px;    
+    top: 670px;    
+}
+
+.person-E{
+    position: absolute;
+    margin-left: 580px;
+    height: 10px;
+    width: 300px;
+    top: 720px; 
+}
+
+.person-F{
+    position: absolute;
+    margin-left: 520px;
+    height: 10px;
+    width: 300px;    
+    top: 800px; 
+}
+
+.person-G{
+    position: absolute;
+    margin-left: 950px;
+    height: 10px;
+    width: 300px;
+    top: 670px;    
+}
+
+.person-H{
+    position: absolute;
+    margin-left: 1030px;
+    height: 10px;
+    width: 300px;    
+    top: 720px; 
+}
+
+.person-I{
+    position: absolute;
+    margin-left: 950px;
+    height: 10px;
+    width: 300px;    
+    top: 800px; 
+}
+
+.evaluations{
+    margin-top: 150px;
+}
+
+.assessment-one{
+    margin-top: 50px; 
+}

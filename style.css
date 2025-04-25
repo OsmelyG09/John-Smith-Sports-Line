@@ -1,274 +1,294 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
 
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-       
-      background-color: white; 
-}
-
-
-header{
-    background-color: rgb(15, 14, 14);
-    padding: 3px;
-    border: 6px solid rgb(86, 102, 74);
-    height: 140px;
-}
-
-img{
-    width:100px; 
-    height:100px;
-    margin-left: 10px;
-    margin-top: 10px;
-    border-radius: 10px;
-}
-
-h1{
-    color: rgb(232, 241, 241);
-    display: inline-block;
-    margin-left: 400px; 
-    position: absolute; 
-    top: 45px; 
+body {
+    color: rgb(73, 69, 69);
     font-family: "Black Ops One", system-ui;
-        font-weight: 400;
-        font-style: normal;
-
+    font-weight: 400;
+    font-style: normal;
 }
 
-
-nave{
-    margin-left: 410px;
+header {
+    background-color: rgb(100, 98, 98);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 5px solid rgb(212, 248, 112);
 }
 
-a{
-    color: rgb(153, 158, 161);
-    display: inline-block;
-    padding: 1px 5px;
-    margin: 3px 3px;
+h1 {
+    margin-bottom: 5px;
+    color: rgb(222, 207, 142);
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+img {
+    align-self: flex-start;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border: 2px solid blanchedalmond;
+    border-radius: 7px;
+}
+
+nave {
+    margin-bottom: 20px;
+}
+
+a {
+    color: rgb(222, 224, 217);
+    padding: 5px 5px;
+    margin: 5px 5px;
     text-decoration: none;
     border-radius: 5px;
     font-family: "Black Ops One", system-ui;
-        font-weight: 400;
-        font-style: normal;
-
+    font-weight: 400;
+    font-style: normal;
 }
 
-a:hover{
-    background-color: rgb(230, 230, 210);
+a:hover {
+    background-color: rgb(222, 207, 142);
     color: rgb(12, 1, 1);
 }
 
-div{
-    background-color: rgb(90, 87, 83);
-    height: 200px; 
+div {
+    background-color: white;
+    height: 200px;
 }
 
-h2{
-    margin-left: 470px;
+h2 {
+    margin-left: 10px;
     display: inline-block;
     margin-top: 40px;
     font-family: "Black Ops One", system-ui;
     font-weight: 400;
-    font-style: normal;   
+    font-style: normal;
 }
 
-.slogan{
-    margin-left: 520px;
+.slogan {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
 }
 
-.categorie{
-    margin-left: 600px;
+.categorie {
+    margin-left: 610px;
+    margin-bottom: 10px;
+
 }
 
-.equipment{
+.equipment {
     position: absolute;
     left: 590px;
-   top: 1080px;
+    top: 1190px;
 }
 
-.outdoor{
+.outdoor {
     position: absolute;
     left: 1020px;
-    top: 1080px;
+    top: 1165px;
 }
 
-.our-products{
-    display: block;
-    padding: 40px;
+.our {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.our-products {
+    padding: 50px;
     font-family: "Black Ops One", system-ui;
-        font-weight: 400;
-        font-style: normal;
-
+    font-weight: 400;
+    font-style: normal;
 }
 
-
-
-main{
-    margin-bottom: 300px;  
+main {
+    background-color: white;
+    margin-bottom: 0px;
 }
 
-h4{
+h4 {
     padding: 30px;
-    margin-left: 500px;
+    margin-left: 10px;
     font-family: "Black Ops One", system-ui;
-        font-weight: 400;
-        font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.available-one{
+.available-one {
     background-color: rgb(243, 244, 245);
     border-radius: 4px;
-    width: 410px;
-    height: 500px;       
+    border: 30px;
+    box-shadow: 0 0 10px black;
+    width: 400px;
+    height: 480px;
+    margin-top: 25px;
 }
 
-.sneakers{
+.sneakers {
     border: 2px solid black;
     margin-left: 100px;
     width: 150px;
     height: 150px;
     font-family: "Black Ops One", system-ui;
-        font-weight: 400;
-        font-style: normal;
+    font-weight: 400;
+    font-style: normal;
+
 }
 
-.available-two{
+.available-two {
     background-color: rgb(243, 244, 245);
     border-radius: 4px;
     position: absolute;
-    width: 410px;
-    height: 500px;
-    left: 460px;
-    top: 455px;   
+    width: 400px;
+    height: 480px;
+    left: 476px;
+    top: 555px;
+    border: 30px;
+    box-shadow: 0 0 10px black;
 }
 
-.mat{
+.mat {
     border: 2px solid black;
     margin-left: 100px;
     width: 150px;
     height: 150px;
 }
 
-.available-three{
-    background-color:rgb(243, 244, 245);
+.available-three {
+    background-color: rgb(243, 244, 245);
     border-radius: 4px;
-    position: absolute;    
-    right: 60px;
-    top: 455px;
-    height: 500px;
-    width: 410px;    
+    position: absolute;
+    right: 50px;
+    top: 555px;
+    height: 480px;
+    width: 400px;
+    border: 30px;
+    box-shadow: 0 0 10px black;
 }
 
-.weights{
+.weights {
     border: 2px solid black;
     margin-left: 100px;
     width: 150px;
-    height: 150px;    
+    height: 150px;
 }
 
-.product{
+.product {
     margin-top: 30px;
     margin-left: 150px;
 }
 
-.products{
+.products {
     margin-top: 20px;
     margin-left: 170px;
 }
 
-.description{
+.description {
     margin-top: 20px;
 }
 
-.cost{
+.cost {
+    margin: 20px;
     margin-top: 20px;
     margin-left: 150px;
     font-family: "Black Ops One", system-ui;
-        font-weight: 400;
-        font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.info{
+.info {
     border: 2px solid black;
     background-color: black;
-    margin-top: 20px;
     margin-left: 130px;
     font-family: "Black Ops One", system-ui;
-        font-weight: 400;
-        font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
 
-h5{
+h5 {
     margin-left: 200px;
-  
+
 }
 
-p{
+p {
     margin-left: 20px;
-    margin-right: 20px;  
+    margin-right: 20px;
 }
 
-
-
-.footwea{
+.footwea {
     margin-left: 200px;
 }
 
-.available-footwear{
+.available-footwear {
     width: 350px;
     height: 350px;
     right: 200px;
-        
+    margin-bottom: 30px;
 }
 
-.footwear{
+.footwear {
     border: 2px solid black;
     margin-left: 100px;
     width: 300px;
     height: 300px;
-    bottom: 120px;   
+    bottom: 120px;
 }
 
-.available-fit-team{
+.available-fit-team {
     position: absolute;
     width: 350px;
     height: 350px;
     left: 480px;
-    top: 1100px;  
+    top: 1195px;
 }
 
-.fit-team{
+.fit-team {
     border: 2px solid black;
     margin-left: 60px;
     width: 300px;
     height: 300px;
 }
 
-.available-outdoor-sports{
-    position: absolute;    
+.available-outdoor-sports {
+    position: absolute;
     height: 350px;
     width: 350px;
     left: 950px;
-    top: 1100px;
-   
+    top: 1185px;
+
 }
 
-.outdoor-sports{
+.outdoor-sports {
     border: 2px solid black;
     width: 300px;
     height: 300px;
 }
 
-footer{
-    background-color: rgb(90, 87, 83); 
+footer {
+    background-color: rgb(100, 98, 98);
+    color: beige;
+    border: 5px solid rgb(212, 248, 112);
     padding: 20px 20px;
     text-align: center;
     font-family: "Black Ops One", system-ui;
     font-weight: 400;
-    font-style: normal;  
-}    
+    font-style: normal;
+}
+
+@media (min-width:375px) and (max-width:685px) {
+    header {
+        background-position: 100%;
+    }
+
+}
